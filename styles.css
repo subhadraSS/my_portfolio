@@ -33,13 +33,17 @@ body {
 }
 
 nav a {
-  margin-left: 1rem;
-  text-decoration: none;
   color: #333;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  transition: background-color 0.2s ease, color 0.2s ease;
 }
 
 nav a:hover {
-  text-decoration: underline;
+  background-color: #e8bffb; /* Change this to your preferred highlight color */
+  color: #ffffff;           /* Text color on hover */
+  border-radius: 4px;       /* Rounded corners (optional) */
+  text-decoration: none;
 }
 
 /* ==================================
