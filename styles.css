@@ -130,7 +130,7 @@ nav a:hover {
 .slideshow-container {
   max-width: 400px; /* or lower, depending on design requirements */
   width: 50%;       /* Ensures it doesn't exceed the width of its parent container */
-  margin: auto;      /* Centers the slideshow in the parent container */
+  margin: 20px auto;     /* Centers the slideshow in the parent container */
   overflow: hidden;  /* Prevents any part of the images from overflowing outside the container */
 }
 
